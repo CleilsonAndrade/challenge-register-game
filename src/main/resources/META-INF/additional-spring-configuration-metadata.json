@@ -6,9 +6,9 @@
       "description": "A description for 'justice.league'"
     },
     {
-      "name": "avangers",
+      "name": "avengers",
       "type": "java.lang.String",
-      "description": "A description for 'avangers'"
+      "description": "A description for 'avengers'"
     }
   ]
 }

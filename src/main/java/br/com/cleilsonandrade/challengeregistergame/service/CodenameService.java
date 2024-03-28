@@ -1,4 +1,4 @@
-package br.cleilsonandrade.challengeregistergame.service;
+package br.com.cleilsonandrade.challengeregistergame.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,7 +38,7 @@ public class CodenameService {
   @PostConstruct
   public void loadJsonData() {
     try {
-      String codenameResponse = restTemplate.getForObject(env.getProperty("avangers"), String.class);
+      String codenameResponse = restTemplate.getForObject(env.getProperty("avengers"), String.class);
       JsonNode jsonNode = objectMapper.readTree(codenameResponse);
 
       ArrayNode avengers = (ArrayNode) jsonNode.get("vingadores");

@@ -1,10 +1,10 @@
-package br.cleilsonandrade.challengeregistergame.infra;
+package br.com.cleilsonandrade.challengeregistergame.infra;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import br.cleilsonandrade.challengeregistergame.model.GroupType;
-import br.cleilsonandrade.challengeregistergame.service.CodenameService;
+import br.com.cleilsonandrade.challengeregistergame.model.GroupType;
+import br.com.cleilsonandrade.challengeregistergame.service.CodenameService;
 
 @Component
 public class CodenameHandler {

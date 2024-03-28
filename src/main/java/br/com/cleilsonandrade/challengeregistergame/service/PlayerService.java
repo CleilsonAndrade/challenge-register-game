@@ -1,13 +1,13 @@
-package br.cleilsonandrade.challengeregistergame.service;
+package br.com.cleilsonandrade.challengeregistergame.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.cleilsonandrade.challengeregistergame.infra.CodenameHandler;
-import br.cleilsonandrade.challengeregistergame.model.GroupType;
-import br.cleilsonandrade.challengeregistergame.model.Player;
-import br.cleilsonandrade.challengeregistergame.model.PlayerDTO;
-import br.cleilsonandrade.challengeregistergame.repositories.PlayerRepository;
+import br.com.cleilsonandrade.challengeregistergame.infra.CodenameHandler;
+import br.com.cleilsonandrade.challengeregistergame.model.GroupType;
+import br.com.cleilsonandrade.challengeregistergame.model.Player;
+import br.com.cleilsonandrade.challengeregistergame.model.PlayerDTO;
+import br.com.cleilsonandrade.challengeregistergame.repositories.PlayerRepository;
 
 @Service
 public class PlayerService {

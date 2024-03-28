@@ -1,4 +1,4 @@
-package br.cleilsonandrade.challengeregistergame.model;
+package br.com.cleilsonandrade.challengeregistergame.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

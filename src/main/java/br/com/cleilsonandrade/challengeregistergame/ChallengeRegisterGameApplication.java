@@ -1,4 +1,4 @@
-package br.cleilsonandrade.challengeregistergame;
+package br.com.cleilsonandrade.challengeregistergame;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

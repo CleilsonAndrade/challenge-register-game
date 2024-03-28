@@ -1,4 +1,4 @@
-package br.cleilsonandrade.challengeregistergame.exceptions;
+package br.com.cleilsonandrade.challengeregistergame.exceptions;
 
 import java.util.NoSuchElementException;
 

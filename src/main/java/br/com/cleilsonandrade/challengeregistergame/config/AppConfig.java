@@ -1,4 +1,4 @@
-package br.cleilsonandrade.challengeregistergame.config;
+package br.com.cleilsonandrade.challengeregistergame.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

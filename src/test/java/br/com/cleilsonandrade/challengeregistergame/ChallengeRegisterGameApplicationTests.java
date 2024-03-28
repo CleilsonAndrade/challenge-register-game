@@ -1,4 +1,4 @@
-package br.cleilsonandrade.challengeregistergame;
+package br.com.cleilsonandrade.challengeregistergame;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
