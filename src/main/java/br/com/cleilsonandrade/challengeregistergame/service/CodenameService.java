@@ -44,7 +44,7 @@ public class CodenameService {
       ArrayNode avengers = (ArrayNode) jsonNode.get("vingadores");
 
       for (JsonNode item : avengers) {
-        this.avengersCodenameList.add(item.get("codename").asText());
+        this.avengersCodenameList.add(item.get("codinome").asText());
       }
 
     } catch (Exception exception) {
@@ -59,7 +59,7 @@ public class CodenameService {
       DocumentBuilder builder = factory.newDocumentBuilder();
       Document document = builder.parse(env.getProperty("justice.league"));
 
-      NodeList codenameList = document.getElementsByTagName("codinome");
+      NodeList codenameList = document.getElementsByTagName("codinomes");
 
       for (int i = 0; i < codenameList.getLength(); i++) {
         Element codenameElement = (Element) codenameList.item(i);

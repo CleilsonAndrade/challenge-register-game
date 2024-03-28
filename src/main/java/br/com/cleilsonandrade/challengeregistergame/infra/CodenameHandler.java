@@ -1,5 +1,7 @@
 package br.com.cleilsonandrade.challengeregistergame.infra;
 
+import java.util.stream.Collectors;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -13,13 +15,12 @@ public class CodenameHandler {
 
   public String findCodename(GroupType groupType) {
     if (groupType == GroupType.AVENGERS) {
-      String firstMatch = codenameService.getAvengersCodenameList().stream().findFirst().orElseThrow();
-      this.codenameService.getAvengersCodenameList().remove(firstMatch);
-      return firstMatch;
+      return codenameService.getAvengersCodenameList().stream()
+          .collect(Collectors.joining(" "));
+    } else {
+      return codenameService.getJusticeLeagueList().stream()
+          .collect(Collectors.joining(" "));
     }
-    String firstMatch = codenameService.getJusticeLeagueList().stream().findFirst().orElseThrow();
-    this.codenameService.getJusticeLeagueList().remove(firstMatch);
-    return firstMatch;
   }
 
 }
