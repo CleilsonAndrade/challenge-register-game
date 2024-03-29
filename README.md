@@ -52,7 +52,7 @@ Para o seu desenvolvimento a foi utilizado o framework [**Spring**](https://spri
 |----------------------|-----------------------------------------------------
 | <kbd>GET / </kbd>     | Responsável por exibir o formulário para cadastro do usuário
 | <kbd>POST / </kbd>     | Responsável por cadastrar o usuário e a lista dos codinomes
-| <kbd>GET /h2-console </kbd>     | Responsável por acesso ao do *H2 Database*
+| <kbd>GET /h2-console </kbd>     | Responsável por acesso ao *H2 Database*
 
 # 🎨 <span id="design">Design</span>
 - <span id="cores">Cores<br></span>
