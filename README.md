@@ -76,7 +76,7 @@ Para o seu desenvolvimento a foi utilizado o framework [**Spring**](https://spri
   $ cd ./challenge-register-game
 
   # Instalar as dependências:
-  $ mvn clean instal
+  $ mvn clean install
 
   # Executar:
   $ mvn spring-boot:run
