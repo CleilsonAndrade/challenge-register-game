@@ -48,11 +48,11 @@ Para o seu desenvolvimento a foi utilizado o framework [**Spring**](https://spri
 - **BootStrap**
 
 # 📍 <span id="endpoints">Endpoints</span>
-| Endpoint               | Resumo                                          
-|----------------------|-----------------------------------------------------
-| <kbd>GET / </kbd> | Responsável por exibir o formulário para cadastro do usuário
-| <kbd>POST / </kbd> | Responsável por cadastrar o usuário e a lista dos codinomes
-| <kbd>GET /h2-console </kbd> | Responsável por acesso ao *H2 Database*
+| Método | Endpoint               | Resumo                                          | Autenticação
+|--------|----------------------|-----------------------------------------------------|--------------------------
+<kbd>GET</kbd> | <kbd>/</kbd> | Responsável por exibir o formulário para cadastro do usuário | Não
+<kbd>POST</kbd> | <kbd>/</kbd> | Responsável por cadastrar o usuário e a lista dos codinomes | Não
+<kbd>GET</kbd> | <kbd>/h2-console</kbd> | Responsável por acesso ao *H2 Database* | Sim
 
 # 🎨 <span id="design">Design</span>
 - <span id="cores">Cores<br></span>
